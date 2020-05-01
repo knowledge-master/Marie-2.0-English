@@ -147,6 +147,22 @@ def start(bot: Bot, update: Update, args: List[str]):
     else:
         update.effective_message.reply_text("waked up😏😏😏")
 
+def send_start(bot, update):
+    #Try to remove old message
+    try:
+        query = update.callback_query
+        query.message.delete()
+    except:
+        pass
+
+    chat = update.effective_chat  # type: Optional[Chat]
+    first_name = update.effective_user.first_name 
+    text = PM_START_TEXT
+
+    keyboard += [[InlineKeyboardButton(text="📢 Support Group", url="https://t.me/k_m_support")]]
+
+    update.effective_message.reply_text(PM_START_TEXT.format(escape_markdown(first_name), bot.first_name), reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
+
 
 # for test purposes
 def error_callback(bot, update, error):
