@@ -28,9 +28,9 @@ Want to add me to your group? [Click Here](http://t.me/k_m_pro_bot?startgroup=tr
 
 For more commands click /help...
 
-    keyboard += [[InlineKeyboardButton(text="♐ UPDATES CHANNEL", url="https://t.me/kmUpdates")]]
+    keyboard += [InlineKeyboardButton(text="♐ UPDATES CHANNEL", url="https://t.me/kmUpdates")]
 
-    keyboard += [[InlineKeyboardButton(text="📢 SUPPORT GROUP", url="https://t.me/kmSupport")]]
+    keyboard += [InlineKeyboardButton(text="📢 SUPPORT GROUP", url="https://t.me/kmSupport")]
 
 """
 
