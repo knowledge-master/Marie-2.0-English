@@ -27,12 +27,12 @@ My future updates will be put into This Channel - @kmUpdates & My Support Group 
 Want to add me to your group? [Click Here](http://t.me/k_m_pro_bot?startgroup=true)
 
 For more commands click /help...
-
-    keyboard += [InlineKeyboardButton(text="♐ UPDATES CHANNEL", url="https://t.me/kmUpdates")]
-
-    keyboard += [InlineKeyboardButton(text="📢 SUPPORT GROUP", url="https://t.me/kmSupport")]
-
 """
+
+
+
+
+
 
 HELP_STRINGS = """
 
