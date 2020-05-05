@@ -24,9 +24,9 @@ I'm a group manager bot maintained by [Knowledge Master](tg://user?id={}).
 
 My future updates will be put into This Channel - @kmBotUpdates & My Support Group @kmSupport.
 
-For more commands click /help...
-
 Want to add me to your group? [Click Here](http://t.me/k_m_pro_bot?startgroup=true)
+
+For more commands click /help...
 """
 
 HELP_STRINGS = """
