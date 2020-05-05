@@ -22,11 +22,16 @@ Heya {}, my name is {}! if you have any questions about how to use me please giv
 
 I'm a group manager bot maintained by [Knowledge Master](tg://user?id={}).
 
-My future updates will be put into This Channel - @kmBotUpdates & My Support Group @kmSupport.
+My future updates will be put into This Channel - @kmUpdates & My Support Group @kmSupport.
 
 Want to add me to your group? [Click Here](http://t.me/k_m_pro_bot?startgroup=true)
 
 For more commands click /help...
+
+    keyboard += [[InlineKeyboardButton(text="♐ UPDATES CHANNEL", url="https://t.me/kmUpdates")]]
+
+    keyboard += [[InlineKeyboardButton(text="📢 SUPPORT GROUP", url="https://t.me/kmSupport")]]
+
 """
 
 HELP_STRINGS = """
